@@ -1,0 +1,8 @@
+{
+  "runtime":{
+    "majorVersion":"0.12"
+  },
+  "command": "node service.js",
+  "release": {1.0),
+  "notes": "Simple Example"
+}

@@ -21,7 +21,7 @@ app.get('/getUsers', function(req, res) {
     res.send( data );
 });
 
-var server = app.listen( 8881, function() {
+var server = app.listen( process.env.PORT, function() {
   var host = server.address().address;
   var port = server.address().port;
   console.log("Node REST service application listening at port: %s", port );

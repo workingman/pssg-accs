@@ -13,7 +13,14 @@ var data = {
     "department": "Sales",
     "designation": "Account Executive",
     "id": 2
+  },
+  "user3": {
+    "name": "Shannon St. Dennis",
+    "department": "Sales",
+    "designation": "Account Executive",
+    "id": 3
   }
+}
 }
 
 app.get('/getUsers', function(req, res) {
